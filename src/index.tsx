@@ -328,7 +328,7 @@ export default class BottomSheetBehavior extends React.Component<Props, State> {
   private onOpenStartValue: Animated.Value<number> = new Value(0)
   private onOpenEndValue: Animated.Value<number> = new Value(0)
   private onCloseStartValue: Animated.Value<number> = new Value(1)
-  private onCloseEndValue: Animated.Value<number> = new Value(0)
+  private onCloseEndValue: Animated.Value<number> = new Value(1)
 
   constructor(props: Props) {
     super(props)
